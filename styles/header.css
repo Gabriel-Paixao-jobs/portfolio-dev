@@ -1,0 +1,41 @@
+
+
+.primary {
+  padding-block: 120px;
+  
+  span {
+    color: var(--red-color);
+  }
+}
+
+.info {
+  img {
+  width: 112px;
+  margin-bottom: 56px;
+  
+  }
+
+   h1 {
+  font: var(--title-lg);
+  }
+
+  h2 {
+  font: var(--subtitle);
+  }
+  
+}
+.tags {
+  gap: 16px;
+  margin-top: 80px;     
+
+   a {
+    display: flex;
+    align-items: center;     
+    gap: 8px;
+    padding-left: 35px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+  }
+
+}
