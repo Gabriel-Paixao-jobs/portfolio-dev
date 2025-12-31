@@ -69,3 +69,12 @@ h1, h2, h3 {
   font: inherit;
 }
 
+.content-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  background-color: var(--gray-400);
+  padding: 8px 16px;
+  border-radius: 999px;
+}
