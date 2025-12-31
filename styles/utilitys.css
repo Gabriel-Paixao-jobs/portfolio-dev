@@ -23,56 +23,26 @@
   margin-top: 94px;
 }
 
-a.gray {
-  background-image: url(../assets/icons/GitHub.svg);
+.title-lg {
+  font: var(--title-lg);
 }
 
-a.gray:hover {
-  color: var(--gray-200);
-  background-image: url(../assets/icons/GitHubgray.svg);
+.title-md {
+  font: var(--title-md);
 }
 
-a.red {
-  background-image: url(../assets/icons/HTML.svg);
+.title-sm {
+  font: var(--title-sm);
 }
 
-a.red:hover {
-    color: var(--red-color);
-    background-image: url(../assets/icons/HTMLred.svg);
+.subtitle {
+  font: var(--subtitle);
 }
 
-a.blue {
-  background-image: url(../assets/icons/CSS.svg);
+.text-md {
+  font: var(--text-md);
 }
 
-a.blue:hover {
-    color: var(--blue-color);
-    background-image: url(../assets/icons/CSSblue.svg);
-}
-
-a.yellow {
-  background-image: url(../assets/icons/JavaScript.svg);
-}
-
-a.yellow:hover {
-    color: var(--yellow-color);
-    background-image: url(../assets/icons/JavaScriptYellow.svg);
-}
-
-a.blueR {
-  background-image: url(../assets/icons/React.svg);
-}
-
-a.blueR:hover {
-    color: var(--blue-color);
-    background-image: url(../assets/icons/Reactblue.svg);
-}
-
-a.green {
-  background-image: url(../assets/icons/Node.js.svg);
-}
-
-a.green:hover {
-    color: var(--green-color);
-    background-image: url(../assets/icons/Node.jsgreen.svg);
+.text-sm {
+  font: var(--text-sm);
 }
