@@ -1,0 +1,29 @@
+main {
+  background-color: var(--gray-600);
+  height: 480px;
+  padding: 88px 120px 120px;
+  gap: 56px;
+
+  span {
+    color: var(--red-color);
+  }
+}
+
+.card { 
+box-sizing: border-box;
+
+align-items: flex-start;
+padding: 20px;
+gap: 20px;
+
+width: 280px;
+height: 155px;
+
+border: 2px solid var(--gray-500);
+border-radius: 12px;
+
+img {
+  margin-bottom: 20px;
+}
+
+}
