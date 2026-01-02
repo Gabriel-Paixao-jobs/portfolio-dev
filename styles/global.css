@@ -38,20 +38,14 @@
 
 body {
   color: var(--gray-100);
-  /*background-color: var(--gray-600);*/
-  background-image: url(/assets/images/Background_Contacts.png);
   background-size: cover;
 }
 
 #page {
-  max-width: 1280px;
+  width: 100%;
+  height: 750px;
   padding-inline: 32px;
   margin-inline: auto;
-
-  display: grid;
-  justify-items: center;
-  row-gap: 20px;
-  text-align: center;
 }
 
 .container h1,
