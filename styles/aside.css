@@ -1,11 +1,83 @@
 aside {
  background-image: url(../assets/images/Background_Contacts.png);
-align-items: center;
-padding: 128px 120px 200px;
-gap: 48px;
-height: 787px;
+  align-items: center;
+  padding: 128px 120px 200px;
+  height: 787px;
 
 span {
   color: var(--purple-color);
+}
+
+.socialbutton {
+  width: 400px;
+  height: 68px;
+
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 20px 0 60px;
+  grid-template-columns: 1fr auto;
+  background: var(--gray-400);
+  border-radius: 8px;
+}
+
+
+
+ .links a {
+  background-position: 20px center;
+  text-align: start;
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+
+  color: var(--gray-200);
+
+  }
+
+a.linkedin {
+  background-image: url(../assets/icons/LinkedinLogo.svg);
+}
+
+.linkedin:hover {
+  background-image: url(../assets/icons/LinkedinLogoblue.svg);
+}
+
+a.insta {
+  background-image: url(../assets/icons/InstagramLogo.svg);
+}
+
+.insta:hover {
+  background-image: url(../assets/icons/InstagramLogoblue.svg);
+}
+
+a.git {
+  background-image: url(../assets/icons/GithubLogo.svg);
+}
+
+.git:hover {
+  background-image: url(../assets/icons/GithubLogoblue.svg);
+}
+
+a.mail {
+  background-image: url(../assets/icons/EnvelopeSimple.svg);
+}
+
+.mail:hover {
+  background-image: url(../assets/icons/EnvelopeSimpleblue.svg);
+}
+
+
+.arrow {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../assets/icons/ArrowUpRight.svg);
+  background-position: center;
+}
+
+.socialbutton:hover {
+  border: 1px solid var(--blue-color);
+}
+
+.socialbutton:hover .arrow {
+  background-image: url(../assets/icons/ArrowUpRightblue.svg);
 }
 }
