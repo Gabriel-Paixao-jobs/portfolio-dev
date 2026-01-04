@@ -1,5 +1,4 @@
 .container {
-  display: grid;
   justify-items: center;
   text-align: center;
   row-gap: 20px;
@@ -18,7 +17,6 @@
 
 
 .caret-container {
-  display: flex;
   justify-content: center;
   margin-top: 94px;
 }
