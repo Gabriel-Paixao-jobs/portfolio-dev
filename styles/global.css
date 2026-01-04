@@ -64,7 +64,6 @@ h1, h2, h3 {
 }
 
 .content-tag {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: end;
