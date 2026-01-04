@@ -1,0 +1,11 @@
+aside {
+ background-image: url(../assets/images/Background_Contacts.png);
+align-items: center;
+padding: 128px 120px 200px;
+gap: 48px;
+height: 787px;
+
+span {
+  color: var(--purple-color);
+}
+}
